@@ -6,7 +6,9 @@ def read_input():
         pattern = input().rstrip()
         text = input().rstrip()
     elif input_text == 'F':
-        file_name = '06'
+        file_name='06'
+        file_path='./tests/'
+        file_full_name = file_path+file_name
         with open(file_name, 'r') as file:
             pattern = file.readline().rstrip()
             text = file.readline().rstrip()
