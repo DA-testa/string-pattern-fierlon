@@ -2,10 +2,10 @@
 
 def read_input():
     input_text = input().rstrip()
-    if input_text == 'i':
+    if input_text == 'I':
         pattern = input().rstrip()
         text = input().rstrip()
-    elif input_text == 'f':
+    elif input_text == 'F':
         with open('input.txt', 'r') as file:
             pattern = file.readline().rstrip()
             text = file.readline().rstrip()
